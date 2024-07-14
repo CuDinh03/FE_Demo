@@ -1,0 +1,18 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ten</th>
+            <th>Mo ta</th>
+            <th>Trang thai</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let book of books">
+            <td>{{book.id}}</td>
+            <td>{{book.ten}}</td>
+            <td>{{book.mota}}</td>
+            <td>{{book.trangThai}}</td>
+        </tr>
+    </tbody>
+</table>
